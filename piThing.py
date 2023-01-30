@@ -44,9 +44,9 @@ pauseImg = PhotoImage(file="pause.png")
 skipImg = PhotoImage(file="skip.png")
 prevImg = PhotoImage(file="prev.png")
 #define now playing and artist text fields
-nowPlaying = Label(window, text="...", bg='#191414', fg='#088404', highlightthickness=0, bd=0, font='Helvetica 18 bold')
+nowPlaying = Label(window, text="...", bg='#191414', fg='#1DB954', highlightthickness=0, bd=0, font='Helvetica 18 bold')
 nowPlaying.place(x=240-(nowPlaying.winfo_width()/2), y=30)
-artist = Label(window, text="...", bg='#191414', fg='#088404', highlightthickness=0, bd=0)
+artist = Label(window, text="...", bg='#191414', fg='#1DB954', highlightthickness=0, bd=0)
 artist.place(x=240-(artist.winfo_width()/2), y=60)
 #configure buttons
 playbtn=Button(window, image=playImg, highlightthickness=0, bd=0, bg='#191414', activeforeground='#191414', activebackground='#191414',borderwidth=0, command=playPause)
